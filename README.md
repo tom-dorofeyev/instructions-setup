@@ -8,6 +8,8 @@ A reusable, production-ready instruction pack for GitHub Copilot Chat in VS Code
 
 This repository provides a clean baseline for teams that want consistent AI-assisted development standards across projects: coding style, clean code principles, SOLID, testing expectations, role-based agents, and reusable prompts.
 
+Repository: https://github.com/tom-dorofeyev/instructions-setup
+
 ## What’s Included
 
 - **Global Copilot behavior** via `.github/copilot-instructions.md`
@@ -41,8 +43,9 @@ This repository provides a clean baseline for teams that want consistent AI-assi
 From your target repository root:
 
 ```bash
+git clone https://github.com/tom-dorofeyev/instructions-setup.git
 mkdir -p .github
-cp -R /path/to/this-repo/.github/* .github/
+cp -R instructions-setup/.github/* .github/
 ```
 
 ### 2) Commit and push
